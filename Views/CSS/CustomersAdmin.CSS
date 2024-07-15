@@ -1,0 +1,178 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* Body */
+body
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Header */
+header, .title, .notice
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(213, 121, 138);
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 100px;
+    color: white;
+    padding-left: 20px  ;
+    border-radius: 5px;
+}
+
+/* nav */
+nav
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    font-size: 20px;
+    line-height: 60px;
+    margin-top: 30px;
+}
+nav > a
+{
+    color: grey;
+    margin-left: 45px;
+}
+nav > a:hover
+{
+    color: white;
+}
+nav > a:first-child
+{
+    margin-left: 10px;
+}
+
+/* TITLE */
+.title, .notice
+{
+    margin-top: 20px;
+}
+/* NOTICE */
+.notice
+{
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 72, 0.852);
+    color: red;
+    /* display: none; */
+}
+/* Form ADD */
+.formAdd
+{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.id, .name, .password, .image, .confirmPassword, .image, .role, .activate, .email
+{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.id > label, .name> label, .password> label, .confirmPassword> label, .image> label, .role> label, .activate> label, .email> label
+{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.name input, .id input, .email input, .password input, .image input, .confirmPassword input
+{
+    line-height: 50px;
+    box-shadow: 4px 4px 4px gray;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.name input:focus,.id input:focus, .password input:focus, .confirmPassword input:focus, .image input:focus, .email input:focus
+{
+    outline: none;
+    font-size: 16px;
+}
+.activate div, .role div
+{
+    height: 50px;
+    /* background-color: rgba(128, 128, 128, 0.375); */
+    line-height: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    box-shadow: 4px 4px 4px gray;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+.role div , .activate div
+{
+    background-color: white;
+}
+.role div label , .activate div label
+{
+    margin-right: 10px;
+}
+.role div input , .activate div input
+{
+    height: 16px;
+    margin-right: 5px;
+    box-shadow: none;
+    cursor: pointer;
+}
+.description
+{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.description label
+{
+    margin-bottom: 10px;
+}
+.description textarea
+{
+    box-shadow: 4px 4px 4px gray;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+/* Btn-func */
+.btn-func
+{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.btn-func button
+{
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}

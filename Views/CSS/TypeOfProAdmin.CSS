@@ -1,0 +1,130 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* Body */
+body
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Header */
+header, .title, .notice
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(213, 121, 138);
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 100px;
+    color: white;
+    padding-left: 20px  ;
+    border-radius: 5px;
+}
+
+/* nav */
+nav
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    font-size: 20px;
+    line-height: 60px;
+    margin-top: 30px;
+}
+nav > a
+{
+    color: grey;
+    margin-left: 45px;
+}
+nav > a:hover
+{
+    color: white;
+}
+nav > a:first-child
+{
+    margin-left: 10px;
+}
+
+/* TITLE */
+.title, .notice
+{
+    margin-top: 20px;
+}
+/* NOTICE */
+.notice
+{
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 72, 0.852);
+    color: red;
+    /* display: none; */
+}
+/* Form ADD */
+.formAdd
+{
+    margin-top: 20px;
+    width: 100%;
+}
+.idType label, form label
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.value_idType,form input[name='typeOfPro']
+{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    padding: 0 20px;
+    background-color: rgba(128, 128, 128, 0.314);
+    box-shadow: 4px 4px 4px gray;
+    border: none;
+}
+form
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+form input[name='typeOfPro'], form input[name='typeOfPro']:focus
+{
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+}
+form input[name='btn-add'], form button, form input[name='btn-update']
+{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+form input[name='btn-add']:hover, form button:hover, form input[name='btn-update']:hover
+{
+    background-color: rgba(128, 128, 128, 0.314);
+}
+form button
+{
+    margin-left: 5px;
+}

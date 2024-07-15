@@ -1,0 +1,112 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* Body */
+body
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Header */
+header, .title
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(213, 121, 138);
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 100px;
+    color: white;
+    padding-left: 20px  ;
+    border-radius: 5px;
+}
+
+/* nav */
+nav
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    font-size: 20px;
+    line-height: 60px;
+    margin-top: 30px;
+}
+nav > a
+{
+    color: grey;
+    margin-left: 45px;
+}
+nav > a:hover
+{
+    color: white;
+}
+nav > a:first-child
+{
+    margin-left: 10px;
+}
+
+.list
+{
+    width: 100%;
+    margin-top: 20px;
+}
+.list table
+{
+    width: 100%;
+}
+.list table tr
+{
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.375);
+}
+.list table tr .checkbox
+{
+    width: 20px;
+    height: 20px;
+}
+.list table .btn-check, .id, .name, .btn-setting-delete
+{
+    text-align: center;
+    font-size: 18px;
+}
+.btn-setting-delete button
+{
+    width: 50px;
+    height: 30px;
+}
+.btn-func
+{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.btn-func button
+{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.btn-func button a
+{
+    display: block;
+    width: 150px;
+    /* height: 0px; */
+}
